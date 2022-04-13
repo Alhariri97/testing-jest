@@ -1,17 +1,17 @@
 {
-  "name": "testinghigherorderfunction",
-  "version": "1.0.0",
-  "description": "",
+  "name": "jest",
+  "version": "1.1.1",
+  "description": "For Unit Testing ",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alhariri97/testingHigherOrderFunction.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abdul",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Alhariri97/testingHigherOrderFunction/issues"
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/Alhariri97/testingHigherOrderFunction#readme",
   "dependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "devDependencies": {}
 }
