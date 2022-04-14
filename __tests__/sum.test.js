@@ -1,4 +1,4 @@
-const theSum = require("../sum");
+const theSum = require("../js-Files/sum");
 
 describe("Test for numbers ", () => {
   describe("test for one or zero argumments", () => {

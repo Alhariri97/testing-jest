@@ -1,4 +1,4 @@
-const { copyArrayAndDoStuff } = require("../main");
+const { copyArrayAndDoStuff } = require("../js-Files/main");
 
 test("instrllluction return values are pushed to the new  array", () => {
   // arrange
