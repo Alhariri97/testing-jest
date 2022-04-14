@@ -11,7 +11,12 @@ function filter(name) {
   if (name.startsWith("_")) {
     name = name.substring(1);
   }
+  // if (nama === "hello") {
+  //   throw Error("This name is not Allowed");
+  // }
   return name;
 }
 
 module.exports = filter;
+
+// npm test -- --coverage

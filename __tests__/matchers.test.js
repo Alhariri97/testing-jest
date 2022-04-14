@@ -50,7 +50,7 @@ describe("data ", () => {
   });
 });
 
-describe.only(" General Matchers ", () => {
+describe(" General Matchers ", () => {
   let a;
   test("TobeUndefined", () => {
     expect(a).toBeUndefined();
