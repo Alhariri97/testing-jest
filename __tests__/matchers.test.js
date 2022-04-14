@@ -1,5 +1,4 @@
 const { expect } = require("@jest/globals");
-const { array } = require("yargs");
 const data = require("../js-Files/matchers");
 
 describe("data ", () => {
@@ -51,4 +50,21 @@ describe("data ", () => {
   });
 });
 
-console.log(data);
+describe.only(" General Matchers ", () => {
+  let a;
+  test("TobeUndefined", () => {
+    expect(a).toBeUndefined();
+  });
+  test("To match Regex", () => {
+    let string = "Hello there, this is Abdul :)";
+    expect(string).toMatch(/Abdul/);
+  });
+  it("To Check the obj has a  proparity", () => {
+    let obj = { name: "Abdul", age: 26 };
+    expect(obj).toHaveProperty("name");
+  });
+  it("To Check the obj has a proparity + value", () => {
+    let obj = { name: "Abdul", age: 26 };
+    expect(obj).toHaveProperty("name", "Abdul");
+  });
+});
